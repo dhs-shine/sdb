@@ -1,0 +1,12 @@
+Source: sdb
+Section: devel
+Priority: extra
+Maintainer: Donghoon Shin <dhs.shin@samsung.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.5
+
+Package: sdb
+Architecture: any
+Depends: ${misc:Depends},
+Description: Smart Debug Bridge
+ sdb CLI Client
